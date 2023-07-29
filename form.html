@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <head>
+        <b>Event Registration</b>
+    </head>
+    <br>
+    <br>
+    <form>
+        <label for="name">Name :</label><br>
+        <input type="text" name="name" id="name"><br><br>   
+
+        <label for="email">Email :</label><br>
+        <input type="email" name="email" id="email" placeholder="abc@gmail.com"><br><br>
+
+        <label for="phone">Phone :</label><br>
+        <input type="tel" name="tele" id="phone"><br><br>
+        
+        <label for="occu">Occupation :</label><br>
+        <select name="occu" id="occu">
+            <option value="student">Student</option>
+            <option value="Employed">Employed</option>
+            <option value="others" selected>Others</option>
+        </select><br><br>   
+        <fieldset>
+            <legend>
+            TOPIC OF INTEREST
+            </legend>
+                 <!-- BY NAMING ALL OPTIONS SAME WE CAN USE THE ONE SELECTION FEATURE BUT THIS ONLY 
+                 WORKS IN RADIO AND NOT IN CHECKBOX BECAUSE THEY HAVE DIFFERENT PROPERTIES                -->
+                <label for="html">HTML</label>
+                <input type="radio" name="opt" id="html"><br>
+                
+                <label for="css">CSS</label>
+                <input type="radio" name="opt" id="css"><br>
+                
+                <label for="js">JS</label>
+                <input type="radio" name="opt" id="js"><br><br>
+        </fieldset>
+
+        <label for="comments"><b>Comments</b></label><br><br>
+        <textarea name="comments" id="comments" cols="30" rows="10" placeholder="..."></textarea>
+        
+        <button>
+            Register
+        </button> <br>
+          
+    </form>
+</body>
+</html>
